@@ -63,6 +63,27 @@ OSI model:
 - Response body (optional):
   - Usually included. Contains content of the response.
 
+### HTTPS
+- HTTP + SSL/TLS
+- Encrypts data in transit
+- Protection from eavesdropping
+- Does not protect against XSS, SQLi, etc.
+
+## Testing Lifecycle
+### Web App Pentesting Methodology
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
