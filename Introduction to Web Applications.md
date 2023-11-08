@@ -71,15 +71,65 @@ OSI model:
 
 ## Testing Lifecycle
 ### Web App Pentesting Methodology
+Why methodology:
+- If you don't use a methodology, you will not be comprehensive/thorough.
+- For your report
+- Efficiency/time management
+- Risk prioritization
+- Industry standards/best practices
+- Legal and ethical compliance
+- Detection of complex vulnerabilities
 
+Methodology
+1. Pre-engagement
+  - Scope
+  - Objectives
+  - Authorization/permissions
+  - Information about application from business perspective
+2. Information gathering & Reconaissance
+  - Passive reconnaissance
+  - Enumerate subdomains, directories, etc.
+  - Open ports
+  - Google dorks
+3. Threat modelling
+  - Analyze architecture/data flows
+  - Build attack surface model
+  - Identify potential high-risk areas
+4. Vulnerability scanning
+  - Automated vulnerability scanners
+  - Verify/validate scan results
+5. Manual testing & exploitation
+  - E.g. input validation, authentication flaws, business logic
+  - Attempt to exploit
+6. Authentication & Authorization testing
+  - Test authentication mechanisms
+  - Evaluate access controls
+7. Session management testing
+  - Evaluate session management mechanisms
+  - Check for timeout settings & token handling
+8. Information disclosure
+  - Review how application handles sensitive information
+  - Test for information disclosure with error messages, server responses, improper access controls
+9. Business loogic testing
+  - Analyze business logic
+  - Test for order-related vulnerabilities, privilege escalation
+10. Client-side testing
+  - Evaluate client-side code (HTML, JavaScript)
+11. Reporting & Remediation
+  - Document and prioritize security vulnerabilities/risks
+  - Provide detailed report
+  - Assist developers in fixing security issues
+12. Post-Engagement
+  - Post-engagement meeting to discuss results
+  - Provide security training
 
+Some useful frameworks:
+- Penetration Testing Execution Standard (PTES) (https://github.com/penetration-testing-execution-standard/ptes)
+- OWASP Web Security Testing Guide (WSTG) (https://owasp.org/www-project-web-security-testing-guide/stable/)
 
-
-
-
-
-
-
+### OWASP Web Security Testing Guide (WSTG)
+https://owasp.org/www-project-web-security-testing-guide/stable/
+https://owasp.org/www-project-top-ten/
 
 
 
