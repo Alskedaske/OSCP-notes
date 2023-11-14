@@ -128,8 +128,10 @@ Some useful frameworks:
 - OWASP Web Security Testing Guide (WSTG) (https://owasp.org/www-project-web-security-testing-guide/stable/)
 
 ### OWASP Web Security Testing Guide (WSTG)
-https://owasp.org/www-project-web-security-testing-guide/stable/
-https://owasp.org/www-project-top-ten/
+- https://owasp.org/www-project-web-security-testing-guide/stable/
+- https://github.com/OWASP/wstg/tree/master/checklists
+- https://owasp.org/www-project-top-ten/
+
 
 
 
