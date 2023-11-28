@@ -133,6 +133,80 @@ Some useful frameworks:
 - https://owasp.org/www-project-top-ten/
 
 
+### WHOIS
+```bash
+whois <DOMAIN OR IP>
+```
+To find DNS records
+```bash
+host <DOMAIN OR IP>
+```
+
+DNS zone transfer
+```bash
+dig axfr @<DNS_IP>
+```
+```bash
+dig axfr @<DNS_IP> <DOMAIN>
+```
+
+More info:
+```bash
+dig ANY @<DNS_IP> <DOMAIN>     #Any information
+dig A @<DNS_IP> <DOMAIN>       #Regular DNS request
+dig AAAA @<DNS_IP> <DOMAIN>    #IPv6 DNS request
+dig TXT @<DNS_IP> <DOMAIN>     #Information
+dig MX @<DNS_IP> <DOMAIN>      #Emails related
+dig NS @<DNS_IP> <DOMAIN>      #DNS that resolves that name
+dig -x 192.168.0.2 @<DNS_IP>   #Reverse lookup
+dig -x 2a00:1450:400c:c06::93 @<DNS_IP> #reverse IPv6 lookup
+
+#Use [-p PORT]  or  -6 (to use ivp6 address of dns)
+```
+
+Also, https://whois.domaintools.com/
+
+### Website Fingerprinting with Netcraft
+
+[https://www.netcraft.com](https://sitereport.netcraft.com/)
+
+### Passive DNS Enumeration
+
+Commonly used record types:
+
+A       (Host address)
+AAAA    (IPv6 host address)
+ALIAS   (Auto resolved alias)
+CNAME   (Canonical name for an alias)
+MX      (Mail eXchange)
+NS      (Name Server)
+PTR     (Pointer)
+SOA     (Start Of Authority)
+SRV     (location of service)
+TXT     (Descriptive text)
+
+
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+```bash
+
+```
+
+
+
+
+
+
+```bash
+
+```
 
 
 
