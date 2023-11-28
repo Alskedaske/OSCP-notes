@@ -174,21 +174,29 @@ Also, https://whois.domaintools.com/
 
 Commonly used record types:
 
-A       (Host address)
-AAAA    (IPv6 host address)
-ALIAS   (Auto resolved alias)
-CNAME   (Canonical name for an alias)
-MX      (Mail eXchange)
-NS      (Name Server)
-PTR     (Pointer)
-SOA     (Start Of Authority)
-SRV     (location of service)
-TXT     (Descriptive text)
-
+- A       (Host address)
+- AAAA    (IPv6 host address)
+- ALIAS   (Auto resolved alias)
+- CNAME   (Canonical name for an alias)
+- MX      (Mail eXchange)
+- NS      (Name Server)
+- PTR     (Pointer)
+- SOA     (Start Of Authority)
+- SRV     (location of service)
+- TXT     (Descriptive text)
+- HINFO   (Host information)
 
 ```bash
-
+dnsrecon -d <DOMAIN
 ```
+
+Very useful: [DNSDumpster](https://dnsdumpster.com/)
+
+
+### Reviewing Webserver Metafiles
+
+robots.txt
+Sitemaps
 ```bash
 
 ```
