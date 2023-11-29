@@ -55,5 +55,18 @@ After executive summary we provide more info:
   - First: short description of what the vulnerability is, why it is dangerous, what can be accomplished
   - Second: evidence (simple: in text, more complex: appendix)
   - Third: remediation advice: detailed enough so that it can be implemented acceptably by the client (no excessive cost/culturally inappropriate)
+ 
+Important:
+- Avoid broad solutions
+- Make solutions concrete and practical
+- Each step should be 1 solution, not multiple steps in 1 solution
 
+### Appendices, Further Information, and References
+Anything that does not fit anywhere else/too long/too detailed
+
+Appendix: if it is necessary for the report but would break the flow of the page
+
+Further information: Not necessary but could provide value (article with in-depth description of vulnerability, standards to follow for remediation, etc.)
+
+References: sources
 
