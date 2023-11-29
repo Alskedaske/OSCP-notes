@@ -77,12 +77,14 @@ dnsenum megacorpone.com
 ```
 
 ### Windows:
-```cmd
+```PowerShell
 nslookup <DOMAIN>
 ```
-```bash
+```PowerShell
 nslookup -type=<RECORD_TYPE> <DOMAIN> <DNSSERVER_IP>
 ```
+
+## TCP/UDP Port Scanning Theory
 ```bash
 
 ```
