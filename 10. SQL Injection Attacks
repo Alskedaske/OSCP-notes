@@ -1,0 +1,54 @@
+SQL is for relational databases: a database with tables, columns and rows.
+
+For automatic functionality, SQL queries are often worked into the (backend) source code.
+
+In some cases, user input is inserted directly into the SQL query. This may be abused by the user inputting snippets of SQL in such a way that data may be exposed.
+
+To connect to an SQL instance:
+
+```bash
+mysql -u root -p'<USERNAME>' -h <TARGET_IP> -P 3306
+```
+
+You can run commands such as:
+```mysql
+select version();
+```
+```mysql
+select system_user();
+```
+
+To show all databases use
+```mysql
+show databases;
+```
+
+
+
+```mysql
+
+```
+```mysql
+
+```
+```mysql
+
+```
+```mysql
+
+```
+```mysql
+
+```
+```mysql
+
+```
+```mysql
+
+```
+```mysql
+
+```
+```mysql
+
+```
